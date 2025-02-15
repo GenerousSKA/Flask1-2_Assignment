@@ -8,21 +8,21 @@ posts = [
         "title": "My First Post",
         "content": "This is the content of my first post.",
         "category": "Technology",
-        "date_published": "2024-07-05" 
+        "date_published": "2024-06-05" 
     },
     {
         "id": 2,
         "title": "Travel Blog",
         "content": "This is the content of my travel blog.",
         "category": "Travel",
-        "date_published": "2024-08-10" 
+        "date_published": "2024-07-10" 
     },
     {
         "id": 3,
         "title": "Cooking Recipes",
         "content": "This is the content of my cooking recipes post.",
         "category": "Food",
-        "date_published": "2024-09-20" 
+        "date_published": "2024-08-20" 
     }
 ]
 
