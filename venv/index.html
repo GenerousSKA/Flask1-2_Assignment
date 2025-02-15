@@ -1,0 +1,17 @@
+{% include 'navbar.html' %}
+
+<h1>Blog Posts</h1>
+
+{% for post in posts %}
+<h2>
+  <a href="{{ url_for('show_post', post_id=post['id']) }}"
+    >{{ post['title'] }}</a
+  >
+</h2>
+<p>{{ post['content'][:50] }}...</p>
+<p>Category: {{ post['category'] }}</p>
+<p>Published: {{ format_date(post['date_published']) }}</p>
+<hr />
+{% endfor %}
+
+<a href="{{ url_for('add_post') }}">Add New Post</a>

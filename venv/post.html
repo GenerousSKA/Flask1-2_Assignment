@@ -1,0 +1,9 @@
+{% include 'navbar.html' %}
+
+<h1>{{ post['title'] }}</h1>
+<p>{{ post['content'] }}</p>
+<p>Category: {{ post['category'] }}</p>
+<p>Published: {{ format_date(post['date_published']) }}</p>
+
+<h2>Comments</h2>
+<a href="{{ url_for('index') }}">Back to Home</a>
